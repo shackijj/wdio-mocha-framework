@@ -1,6 +1,6 @@
 {
-  "name": "wdio-mocha-framework",
-  "version": "0.6.4",
+  "name": "@shackijj/wdio-mocha-framework",
+  "version": "0.6.5",
   "description": "A WebdriverIO plugin. Adapter for Mocha testing framework.",
   "main": "build/adapter.js",
   "scripts": {
@@ -37,9 +37,9 @@
   },
   "homepage": "https://github.com/webdriverio/wdio-mocha-framework#readme",
   "dependencies": {
+    "@shackijj/wdio-sync": "^0.8.0",
     "babel-runtime": "^6.23.0",
-    "mocha": "^5.2.0",
-    "wdio-sync": "0.7.3"
+    "mocha": "^5.2.0"
   },
   "devDependencies": {
     "babel-cli": "~6.26.0",
